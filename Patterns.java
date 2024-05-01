@@ -36,6 +36,15 @@ System.out.println();
             }System.out.println();
         }
 
+          
+        int[] a = {1, 2, 3, 4, 5};
+        int max = a[0]; // Assume the first element is the maximum
 
+        // Iterate through the array to find the maximum
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > max) {
+                max = a[i];
+            }
     }
+}
 }
