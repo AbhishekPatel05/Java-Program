@@ -7,11 +7,11 @@ list.add("Harshit");
 list.add("Anand");  
 list.add("Vikas");  
 //Traversing list through Iterator  
-Iterator itr=list.iterator();  
+Iterator  itr=list.iterator();  
 while(itr.hasNext()){  
 System.out.println(itr.next());  
 } 
-}  
+
 
 
 
@@ -20,8 +20,10 @@ al.add("Ravi");
 al.add("Vijay");  
 al.add("Ravi");  
 al.add("Ajay");  
-Iterator<String> itr=al.iterator();  
+ itr=al.iterator();  
 while(itr.hasNext()){  
 System.out.println(itr.next());  
 }  
-} 
+} }
+
+
