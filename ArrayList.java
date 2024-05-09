@@ -24,6 +24,7 @@ al.add("Ajay");
 while(itr.hasNext()){  
 System.out.println(itr.next());  
 }  
+
 } }
 
 
