@@ -35,6 +35,10 @@ String a = "Abhishek";
 System.out.println(a.charAt(4));
 
 
+//-------lenght---
+
+String B = "Abhishek";
+System.out.println(B.length());
 
 }
 }
